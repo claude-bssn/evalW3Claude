@@ -1,0 +1,133 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    width: 100vw;
+}
+html{
+    background-image: url("../image/apper.jpg");
+    
+}
+header{
+    background-color: rgba(255, 255, 255, 0.623);
+    height: 25vh;
+}
+.menu{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    height: 2vh;
+    align-items: center;
+    padding-top: 30px;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    transition: 00.5s;
+} 
+a:hover{
+    color: rgb(123, 156, 146);
+    font-size: 30px;
+}
+.form{
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-evenly;
+}
+.name{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+
+.center{
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    width: 100vw;
+    padding: 30px 0px;
+}
+.centerBox{
+    justify-content: center;
+    display: flex;
+    padding: 50px 0px;
+}
+
+.text{
+    background-color: rgba(255, 255, 255, 0.411);
+    width: 80%;
+    text-align: justify;
+    padding: 10px;
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 40vh;
+    background-color: rgb(123, 156, 146);
+}
+.message{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+label{
+    font: bold;
+}
+.backgroungForm{
+    background-color: rgba(255, 255, 255, 0.411);
+}
+.left img{
+    width: 30vw;
+    height:auto;
+    padding: 10px;
+}
+ .right img{
+    width: 50vw;
+    height:auto;
+    padding: 10px;
+ }
+.imgContainer{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    
+}
+.left{
+    display: flex;
+    flex-direction: column;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+}
+.sizeText{
+    font-size: 100%;
+}
+.padding{
+    padding: 200px ;
+}
+.button
+{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    transition: 00.5s;
+    border: 1px solid grey;
+} 
+a:hover{
+    color: rgb(18, 87, 66);
+    font-size: 30px;
+
+}
+.titre{
+    font-size: 80px;
+}

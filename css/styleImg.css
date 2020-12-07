@@ -1,0 +1,50 @@
+.container{
+    
+    width: 100vw;
+    height: 290px;
+    overflow: hidden;
+    position: relative;
+}
+
+.col{
+    float:right;
+    width: 33.333333%;
+    height: 600px;
+    color:#F9F9F9;
+    box-shadow:  8px 0px 5px rgba(0,0,0,0.4);
+    overflow:hidden;
+    display: block;
+    text-decoration: none;
+    transform: rotate(10deg);
+    margin-top:-150px
+}
+
+.bg{
+    display:block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    width: 150%;
+    height: 600px;
+    margin:0px 0px 0px 0px;
+}
+.img1{background-image: url("../image/stampA.png");}
+.img2{background-image: url("../image/stampB.png");}
+.img3{background-image: url("../image/stampC.png");}
+
+.colInner{
+    transform:rotate(-10deg);
+    margin-top: 150px;
+}
+.colLeft {
+    padding-left: 0;
+    position: absolute;
+    left: -3%;
+    width: 36%;
+}
+}
+.col.colRight{
+    box-shadow: none;
+    position: relative;
+    left:-3px;
+}
